@@ -8,7 +8,7 @@ export default function Hero() {
       </div>
 
       <h1 className="animate-fade-in-up delay-100 text-5xl sm:text-7xl font-bold tracking-tight leading-tight mb-6">
-        <span className="gradient-text">Eui Jin Jung</span>
+        <span className="gradient-text">EJ Jung</span>
       </h1>
 
       <p className="animate-fade-in-up delay-200 text-xl sm:text-2xl text-zinc-400 max-w-2xl leading-relaxed mb-10">

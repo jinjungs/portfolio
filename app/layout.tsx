@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Eui Jin Jung — Backend Software Engineer",
+  title: "EJ Jung — Backend Software Engineer",
   description: "Backend Software Engineer with 4+ years in Distributed Systems & AI-Agentic Development. Spring Boot, Kafka, AWS, and more.",
 };
 

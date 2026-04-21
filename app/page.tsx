@@ -15,7 +15,7 @@ export default function Home() {
       <Leadership />
       <Contact />
       <footer className="text-center py-8 text-sm text-zinc-600 border-t border-zinc-800/50">
-        <p>© 2026 Eui Jin Jung. Built with Next.js & Tailwind CSS.</p>
+        <p>© 2026 EJ Jung. Built with Next.js & Tailwind CSS.</p>
       </footer>
     </main>
   );
