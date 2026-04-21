@@ -28,7 +28,7 @@ const experiences = [
       "Designed an idempotent locking mechanism adopted across 10+ REST APIs, eliminating duplicate request side effects.",
       "Reduced error detection time by 50% through real-time alerting.",
     ],
-    tags: ["Java", "Spring Boot", "Kafka", "Spring Batch", "MySQL", "Docker"],
+    tags: ["Java", "Spring Boot", "Kafka", "Spring Batch", "Oracle", "Docker", "JavaScript", "TypeScript", "React"],
   },
   {
     company: "WealthGuide",
@@ -41,7 +41,7 @@ const experiences = [
       "Enabled asynchronous data propagation across distributed systems using RabbitMQ.",
       "Automated CI/CD pipelines with Azure Pipelines, improving deployment speed and system reliability.",
     ],
-    tags: ["Java", "Spring Boot", "RabbitMQ", "Azure Pipelines"],
+    tags: ["Java", "Spring Boot", "RabbitMQ", "MySQL", "Azure Pipelines", "JavaScript"],
   },
   {
     company: "CodeDay",
