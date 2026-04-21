@@ -1,6 +1,10 @@
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="min-h-screen flex flex-col justify-center px-6 pt-20 pb-16 max-w-5xl mx-auto">
+      <div className="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-10">
+      <div className="flex-1">
       <div className="animate-fade-in-up">
         <p className="font-mono text-indigo-400 text-sm tracking-widest mb-6">
           BACKEND SOFTWARE ENGINEER
@@ -63,7 +67,28 @@ export default function Hero() {
         </a>
       </div>
 
-      <div className="animate-fade-in-up delay-500 mt-20 flex flex-wrap gap-10">
+      </div>
+
+      <div className="animate-fade-in-up delay-200 flex-shrink-0 flex justify-center sm:justify-end">
+        <div className="relative w-56 h-56 sm:w-72 sm:h-72">
+          <div className="absolute inset-0 rounded-full bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400 p-[3px]">
+            <div className="w-full h-full rounded-full overflow-hidden bg-zinc-900">
+              <Image
+                src="/profile.jpeg"
+                alt="EJ Jung"
+                width={288}
+                height={288}
+                className="object-cover w-full h-full"
+                priority
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      <div className="animate-fade-in-up delay-500 mt-16 flex flex-wrap gap-10">
         {[
           { value: "4+", label: "Years Experience" },
           { value: "10K+", label: "Daily Orders Handled" },
