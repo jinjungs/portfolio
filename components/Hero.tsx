@@ -19,16 +19,25 @@ export default function Hero() {
 
       <p className="animate-fade-in-up delay-300 text-base text-zinc-500 max-w-2xl leading-relaxed mb-10">
         I care about more than just writing code — I care about software quality, business needs,
-        and the end users who actually use what I build. Currently co-founding{" "}
+        and the end users who actually use what I build. Currently co-founding Flowdi, a
+        time-tracking app shipped end-to-end with AI-assisted development.{" "}
         <a
-          href="https://flowdi.app"
+          href="https://apps.apple.com/us/app/flowdi-visual-time-tracker/id6754231222"
           target="_blank"
           rel="noopener noreferrer"
           className="text-indigo-400 hover:text-indigo-300 transition-colors"
         >
-          Flowdi
+          App Store
+        </a>{" "}
+        ·{" "}
+        <a
+          href="https://play.google.com/store/apps/details?id=com.flowdi.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-indigo-400 hover:text-indigo-300 transition-colors"
+        >
+          Google Play
         </a>
-        , a time-tracking app shipped end-to-end with AI-assisted development.
       </p>
 
       <div className="animate-fade-in-up delay-400 flex flex-wrap gap-4">

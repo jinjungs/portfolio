@@ -1,7 +1,7 @@
 const experiences = [
   {
     company: "Flowdi",
-    url: "https://flowdi.app",
+    url: "https://apps.apple.com/us/app/flowdi-visual-time-tracker/id6754231222",
     role: "Full Stack Software Engineer / Co-Founder",
     period: "Jul 2025 – Present",
     description: "A cross-platform mobile time-tracking application providing statistics for time flow.",
@@ -32,7 +32,7 @@ const experiences = [
   },
   {
     company: "WealthGuide",
-    url: "#",
+    url: "https://www.wealthguide.co.kr/",
     role: "Backend Software Engineer",
     period: "Apr 2021 – May 2022",
     description: "Fintech startup providing personal pension asset management.",
