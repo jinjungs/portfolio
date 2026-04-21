@@ -11,9 +11,15 @@ export default function Hero() {
         <span className="gradient-text">EJ Jung</span>
       </h1>
 
-      <p className="animate-fade-in-up delay-200 text-xl sm:text-2xl text-zinc-400 max-w-2xl leading-relaxed mb-10">
-        4+ years building distributed systems and backend infrastructure.
-        Currently exploring AI-agentic development at{" "}
+      <p className="animate-fade-in-up delay-200 text-xl sm:text-2xl text-zinc-400 max-w-2xl leading-relaxed mb-6">
+        Product-minded Backend Engineer with 4+ years specializing in Java & Spring —
+        building scalable systems and shipping products from{" "}
+        <span className="text-white font-medium">0 to 1</span>.
+      </p>
+
+      <p className="animate-fade-in-up delay-300 text-base text-zinc-500 max-w-2xl leading-relaxed mb-10">
+        I care about more than just writing code — I care about software quality, business needs,
+        and the end users who actually use what I build. Currently co-founding{" "}
         <a
           href="https://flowdi.app"
           target="_blank"
@@ -22,10 +28,10 @@ export default function Hero() {
         >
           Flowdi
         </a>
-        .
+        , a time-tracking app shipped end-to-end with AI-assisted development.
       </p>
 
-      <div className="animate-fade-in-up delay-300 flex flex-wrap gap-4">
+      <div className="animate-fade-in-up delay-400 flex flex-wrap gap-4">
         <a
           href="#experience"
           className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg font-medium transition-colors duration-200"
@@ -48,7 +54,7 @@ export default function Hero() {
         </a>
       </div>
 
-      <div className="animate-fade-in-up delay-400 mt-20 flex flex-wrap gap-10">
+      <div className="animate-fade-in-up delay-500 mt-20 flex flex-wrap gap-10">
         {[
           { value: "4+", label: "Years Experience" },
           { value: "10K+", label: "Daily Orders Handled" },
